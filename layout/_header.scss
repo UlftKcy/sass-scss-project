@@ -1,0 +1,14 @@
+.logo:hover {
+    cursor: pointer;
+}
+
+.bar {
+    position: absolute;
+    top: 30%;
+    right: 0;
+    margin-right: 30px;
+    visibility: hidden;
+}
+i{
+    color: $black;
+}

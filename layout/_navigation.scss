@@ -1,0 +1,48 @@
+nav {
+    width: 100vw;
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.nav-links {
+    align-self: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 30px;
+    color: $black;
+    font-size: 1.2rem;
+}
+
+a:hover {
+    color: $green;
+}
+
+.nav-link-signUp {
+    color: #ffff !important;
+    background-color: $green;
+    padding: .7rem 1.8rem;
+    border-radius: 5px;
+}
+
+.nav-link-signUp:hover {
+    background-color: $red;
+}
+@media (max-width:868px) {
+    .nav-links {
+        visibility: hidden;
+    }
+
+    &.bar {
+        visibility: visible;
+    }
+
+    &.logo {
+        position: absolute;
+        top: 30%;
+        left: 0;
+        margin-left: 20px;
+    }
+}
